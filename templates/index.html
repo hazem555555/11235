@@ -8,8 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-
+    <link rel="stylesheet" href="../static/css/style.css">
 
 </head>
 
@@ -20,11 +19,14 @@
 
     <div class="topnav" id="myTopnav">
         <a href="#" class="active">Water protectors</a>
+        <a href="http://prediction.c1.biz/portfolio.html ">Portfolio</a>
+        <a href="http://prediction.c1.biz/poster.html">Poster</a>
+        <a href="http://prediction.c1.biz/contact.html">Contact</a>
     </div>
     <!--nav bar end-->
   
   
-    <div class="login">
+    <div class="login" style="top: 220px">
         <h1> Predict the Water Quality Index of the sample</h1>
         <h3 style="padding: 10px;"> Enter the following values to predict the WQI</h3>
         <form action="{{ url_for('predict')}}"method="post" style=" margin: auto;width: 100%;border: 3px solid rgba(0, 0, 0, 0);padding: 10px;">
