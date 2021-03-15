@@ -27,13 +27,12 @@ body {
 	overflow: auto;
 	font-family: 'Open Sans', sans-serif;
 	color: #fff;
-
-	background: #0F2027;  /* fallback for old browsers */
+	
+	font-size: 18px;
+background: #0F2027;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	background-size: 100% 100%;
-	font-size: 18px;
-	background-size: 100% 100%;
+	background-size: 100% 100%;	
 	text-align:center;
 	letter-spacing:1.2px;
 	/*
@@ -46,16 +45,16 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
 .login {
 	position: absolute;
 	top: 33%;
-	left: 40%;	
+	left: 46%;
 	margin: -150px 0 10px -150px;
 	width:550px;
 	height:535px;
-	height:50%
+	height:100%
 	width: 100%;
-	z-index: 0;
 	background-color: rgba(0,0,0,0.3);
-	border: 1px solid gold;
+    border: 1px solid gold;
 	border-radius: 5%
+
 }
 
 .login h1 { color: #fff; text-shadow: 0 0 10px rgba(0,0,0,0.3); letter-spacing:1px; text-align:center; margin-top: 6px;}
